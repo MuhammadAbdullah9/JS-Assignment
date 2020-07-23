@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Coding</title>
+
+    <!-- USE THE BELOW LINK ONLY FOR CHAPTER 53-58 -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+</head>
+
+<body>
+
+    <!-- <== EVENTS ==> -->
+
+    <!-- EX#1 -->
+    <!-- <p>New to the page ? <button onclick="greet()">click here</button></p> -->
+
+    <!-- EX#2 -->
+    <!-- <h2>Mobile Phone Lookup</h2>
+    <img onclick="display()" src="img/m1.jpg" alt="">
+    <img onclick="display()" src="img/m2.jpg" alt="">
+    <img onclick="display()" src="img/m3.jpg" alt="">
+    <img onclick="display()" src="img/m4.jpg" alt=""> -->
+
+    <!-- EX#3 -->
+    <!-- <table>
+
+       <tr>
+           <td><h3>Index</h3></td>
+           <td><h3>Name</h3></td>
+           <td><h3>Class</h3></td>
+           <td></td>
+       </tr>
+       <tr>
+           <td>0</td>
+           <td>Ahmad</td>
+           <td>8</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>1</td>
+           <td>Ali</td>
+           <td>8</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>2</td>
+           <td>Akmal</td>
+           <td>8</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>3</td>
+           <td>Mohsin</td>
+           <td>8</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td>Raheel</td>
+           <td>9</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>5</td>
+           <td>Yahya</td>
+           <td>9</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>6</td>
+           <td>Moosa</td>
+           <td>9</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>7</td>
+           <td>Hussain</td>
+           <td>10</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>8</td>
+           <td>Fareed</td>
+           <td>10</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       <tr>
+           <td>9</td>
+           <td>Hameed</td>
+           <td>10</td>
+           <td><button onclick="removing(this)">delete</button></td>
+       </tr>
+       
+
+    </table> -->
+
+    <!-- EX#4 -->
+    <!-- <img onmouseout="src='img/e1.png'" onmouseover="src='img/e2.png'" src="img/e1.png" alt=""> -->
+
+    <!-- EX#5
+    <center><div><h1><button id="count">00</button></h1></div>
+    <br>
+    <div>
+        <button onclick="inc()">increase</button>
+        <button onclick="dec()">decrease</button>
+    </div></center> -->
+
+
+    <!-- <== CHAPTER # 49-52 ==> <== EVENTS ==> -->
+
+
+    <!-- EX#1 -->
+    <!-- 
+    <h1>Sign Up Form</h1>
+    <h4>Fill the form to be with us</h4>
+    <label for="Name">Full Name</label><br>
+    <input id="Name" type="text" name="Name" placeholder="Enter your full name"><br><br>
+    <label for="Email">Email</label><br>
+    <input id="Email" type="text" name="Email" placeholder="Enter your Email"><br><br>
+    <label for="Contact">Contact No</label><br>
+    <input id="Contact" type="text" name="Contact" placeholder="Enter your contact number"><br><br>
+    <button onclick="submission()">submit</button> -->
+
+    <!-- EX#2 -->
+    <!-- 
+    <p id="para">Lorem ipsum dolor sit amet, consectetur <a href="#" onclick="read()">read more</a></p> -->
+
+    <!-- EX#3 -->
+
+    <!-- <table>
+
+       <tr>
+           <td><h3>Index</h3></td>
+           <td><h3>Name</h3></td>
+           <td><h3>Class</h3></td>
+           <td></td>
+       </tr>
+       <tr>
+           <td>0</td>
+           <td>Ahmad</td>
+           <td>8</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>1</td>
+           <td>Ali</td>
+           <td>8</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+        </tr>
+       <tr>
+           <td>2</td>
+           <td>Akmal</td>
+           <td>8</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>3</td>
+           <td>Mohsin</td>
+           <td>8</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>4</td>
+           <td>Raheel</td>
+           <td>9</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>5</td>
+           <td>Yahya</td>
+           <td>9</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>6</td>
+           <td>Moosa</td>
+           <td>9</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>7</td>
+           <td>Hussain</td>
+           <td>10</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>8</td>
+           <td>Fareed</td>
+           <td>10</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       <tr>
+           <td>9</td>
+           <td>Hameed</td>
+           <td>10</td>
+           <td><button onclick="removing(this)" id="delete">delete</button></td>
+           <td><button onclick="edit(this)" id="edit">edit</button></td>
+           <td><button onclick="save(this)" id="save">save</button></td>
+       </tr>
+       
+
+    </table>
+    <br><br>
+    <input id="name" type="text" placeholder="enter name you want to replace"><br><br>
+    <input id="class" type="text" placeholder="enter class you want to replace"> -->
+
+
+    <!-- CHAPTER # 53-58 (MODAL) -->
+
+    <!-- <div>
+        <center>
+        <img onclick="modal(this)" src="img/m1.jpg" data-toggle="modal" data-target="#exampleModal" alt="">
+        <img  onclick="modal(this)" src="img/m2.jpg" data-toggle="modal" data-target="#exampleModal" alt="">
+        <img  onclick="modal(this)" src="img/m3.jpg" data-toggle="modal" data-target="#exampleModal" alt="">
+        <img  onclick="modal(this)" src="img/m4.jpg" data-toggle="modal" data-target="#exampleModal" alt=""></center>
+    </div>
+
+    Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img id="body" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- ZOOM IN AND ZOOM OUT QUESTION -->
+
+    <!-- DIDN'T WORK, SIZE NOT INCRAESED ON EACH CLICK -->
+
+    <!-- <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, est ipsum! Quia tempore explicabo, sit odit
+        doloribus necessitatibus molestias voluptatem optio temporibus id? Perspiciatis, qui. Fugit quae repellat
+        voluptatum labore!
+    </p>
+    <button onclick="ZoomIn()">Zoom In</button>
+    <button onclick="ZoomOut()">Zoom Out</button> -->
+
+
+
+    <!-- DOM -->
+
+    <!-- CODE FOR THE TASKS -->
+
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class="content">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" />
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" />
+            <label for="email">Email</label>
+            <input type="text" id="email"/>
+        </div>
+        <div id="main-content" class="content">
+            <p class="render"> First Name : Alex</p>
+            <p class="render" id="lastName">Last Name: Bank</p>
+            <p class="render"> Email : alexbank@example.com</p>
+            <p class="render"> Country : Pakistan </p>
+            <p class="render"> contact : +92 300 1234567</p>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+
+
+    <!-- USE THE BELOW LINKS ONLY FOR CHAPTER 53-58 -->
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script> -->
+</body>
+
+</html>
